@@ -1,0 +1,69 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color:white;
+    align-items: center;
+    padding: 1rem;
+    position: fixed;
+    width:100%;
+    height:90px;
+    z-index: 10;
+}
+
+img{
+    width:40%;
+    height:100%;
+    padding-top: 0.5rem;
+}
+
+.header-bg{
+    background-color:grey;
+    transition: 0.5s;
+}
+
+.listMenu{
+    display: flex;
+    padding-top: 0.5rem;
+}
+
+.listMenu li{
+    padding: 1.2rem;
+    font-size: 20px;
+}
+
+.hamBurger{
+    display:none;
+}
+
+@media screen and (max-width:1040px) {
+    .listMenu{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width:100%;
+        height: 100vh;
+        background: gray;
+        position:absolute;
+        top:0;
+        left:-100%;
+        z-index: -3;
+        transition: 0.3s;
+    }  
+
+    .listMenu.active{
+        left:0;
+    }
+    
+    .listMenu li{
+        padding: 1rem 0;
+    }
+
+    .listMenu li a{
+        font-size: 2rem;
+        font-weight: 700;
+    }
+
+    .hamBurger{
+        display: initial;
+    }
+} 
