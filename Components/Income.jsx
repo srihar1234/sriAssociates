@@ -6,7 +6,7 @@ import "../Components/Income.css";
 const Income = () => {
   return (
     <div className="WorkContainer">
-    <h1 className="projectHead">GST SERVICES</h1>
+    <h1 className="projectHead">INCOME TAX SERVICES</h1>
 
       <div className="projectContainer">
         
