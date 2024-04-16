@@ -48,7 +48,13 @@
 
 @media screen and (max-width:1000px) {
     .hero .content h1{
-        font-size: 20px;
+        font-size: 18px;
+    }
+
+    .hero .content{
+        position:absolute;
+        left:76%;
+        top:75%;
     }
 
     .content{

@@ -20,7 +20,11 @@ const Intro = () => {
               <div className="phone">
                 <h4>
                 <FaPhone size={20} style={{color:"#fff",marginRight:"2rem"}}/>
-                +91 9442067042 , +91 8903670624
+                +91 9442067042
+                </h4>
+                <h4>
+                <FaPhone size={20} style={{color:"#fff",marginRight:"2rem"}}/>
+                +91 8903670624
                 </h4>
               </div>
   
